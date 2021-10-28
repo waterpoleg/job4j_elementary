@@ -15,6 +15,6 @@ public class Point {
         System.out.println("result (0, 0) to (2, 0) " + result);
         System.out.println("result (10, 0) to (25, 0) " + result1);
         System.out.println("result (0, 100) to (300, 50) " + result2);
-        System.out.println("result (1000, 0) to (0, 500) " + result3);
+        System.out.println("result (10000, 0) to (0, 500) " + result3);
     }
 }
