@@ -15,7 +15,7 @@ public class SqAreaTest {
     }
 
     @Test
-    public void whenP18K8Square3dot5() {
+    public void whenP18K8Square8() {
         int expected = 8;
         int p = 18;
         double k = 8;
