@@ -52,15 +52,4 @@ public class FindLoopTest {
         int expected = 7;
         Assert.assertEquals(expected, result);
     }
-
-    @Test
-    public void whenFind11ThenMinus1() {
-        int[] data = new int[] {5, 2, 10, 2, 4, 30, 8, 22, 99, 12, 15, 13};
-        int el = 11;
-        int start = 3;
-        int finish = 10;
-        int result = FindLoop.indexOf(data, el, start, finish);
-        int expected = -1;
-        Assert.assertEquals(expected, result);
-    }
 }
