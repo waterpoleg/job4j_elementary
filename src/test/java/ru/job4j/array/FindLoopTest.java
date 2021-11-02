@@ -30,4 +30,26 @@ public class FindLoopTest {
         int expected = 7;
         Assert.assertEquals(expected, result);
     }
+
+    @Test
+    public void whenFind2Then3() {
+        int[] data = new int[] {5, 2, 10, 2, 4};
+        int el = 2;
+        int start = 2;
+        int finish = 4;
+        int result = FindLoop.indexOf(data, el, start, finish);
+        int expected = 3;
+        Assert.assertEquals(expected, result);
+    }
+
+    @Test
+    public void whenFind22Then7() {
+        int[] data = new int[] {5, 2, 10, 2, 4, 30, 8, 22, 99, 12};
+        int el = 22;
+        int start = 4;
+        int finish = 7;
+        int result = FindLoop.indexOf(data, el, start, finish);
+        int expected = 7;
+        Assert.assertEquals(expected, result);
+    }
 }
